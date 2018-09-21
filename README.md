@@ -1,3 +1,8 @@
+TODO:
+
+* Social media icons
+* Remove filter link behaviour for about and contact pages
+
 # dtai photography website instructions
 
 ## Step 1: Uploading a new photo
@@ -53,7 +58,7 @@ image you uploaded in Step 1. (The above code snippet assumes the file format
 is jpg but you can change the file extension if necessary.)
 
 To change the category, replace *food* in the above snippet with the desired
-category. 
+category.
 
 ### Step 2.2: Portfolio Modals Section
 
