@@ -52,6 +52,9 @@ For the **YOUR_PIC** variable, replace the text with the file name of the
 image you uploaded in Step 1. (The above code snippet assumes the file format
 is jpg but you can change the file extension if necessary.)
 
+To change the category, replace *food* in the above snippet with the desired
+category. 
+
 ### Step 2.2: Portfolio Modals Section
 
 Scroll down until you encounter the comment

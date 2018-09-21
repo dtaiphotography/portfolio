@@ -1,4 +1,4 @@
-//Used Isotope plugin for filtering 
+//Used Isotope plugin for filtering
 // https://github.com/metafizzy/isotope
 
 $(window).load(function() {

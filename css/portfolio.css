@@ -82,6 +82,8 @@ ul, ol { padding: 0;}
     padding-left: 15px;
     padding-right: 15px;
 }
+
+
 .gallary ol li a:hover,
 .gallary ol li a:focus{
     border-radius: 50px;
