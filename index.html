@@ -29,7 +29,6 @@
 
 
 
-    <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
     <div class="gallary animate-grid">
         <div class="container">
@@ -48,15 +47,19 @@
                                     <li><a href="#" data-filter="*" class="active">All</a></li>
                                     <li><a href="#" data-filter=".land">Landscape</a></li>
                                     <li><a href="#" data-filter=".food">Portrait</a></li>
-                                    <li class="temp"><a>Blog</a></li>
-                                    <li class="temp"><a>About</a></li>
-                                    <li class="temp"><a>Contact</a></li>
+                                    <li class="temp"><a href="#" data-filter="*">Blog</a></li>
+                                    <li class="temp"><a href="#" data-filter="*">About</a></li>
+                                    <li class="temp"><a href="#" data-filter="*">Contact</a></li>
                                 </ol>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+
+
+
+            <!-- Portfolio Grid Section begins here-->
             <div class="row gallary-thumbs">
                 <div class="col-md-4 col-sm-6 portfolio-item architecture">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
@@ -155,10 +158,9 @@
                         </div>
                         <img src="img/food2.jpg" class="img-responsive" alt="">
                     </a>
-
                 </div>
 
-
+                <!--Portfolio grid section ends here. All code should be added above-->
             </div>
         </div>
     </section>
@@ -166,7 +168,7 @@
 
     <!-- Portfolio Modals -->
     <!-- The script bellow will open a page for every single portfolio item which will contain detailed information about that item! -->
-
+    <div id="modals">
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
@@ -182,16 +184,9 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-
                                 <img class="img-responsive img-centered" src="img/architecture1.jpg" alt="">
-
-
                                 <ul class="list-inline">
-
-
-
                                 </ul>
-
                             </div>
                         </div>
                     </div>
@@ -214,11 +209,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-
                                 <img class="img-responsive img-centered" src="img/fashion1.jpg" alt="">
-
-
-
                             </div>
                         </div>
                     </div>
@@ -422,10 +413,13 @@
             </div>
         </div>
     </div>
+</div>
+
 
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/dynamic_pics.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -438,5 +432,5 @@
 
 
 
-
-</body></html>
+</body>
+</html>
