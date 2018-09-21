@@ -68,7 +68,7 @@ Beginning on the line directly above the comment (line 412 in the above image),
 insert the following code snippet by copying and pasting:
 
 ```html
-<!-- Portfolio Modal 9 -->
+<!-- Portfolio Modal YOUR_NUMBER -->
 <div class="portfolio-modal modal fade" id="portfolioModalYOUR_NUMBER" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
      <div class="modal-dialog">
          <div class="modal-content">
@@ -93,7 +93,8 @@ insert the following code snippet by copying and pasting:
 </div>
 ```
 
-Once again, there are 2 variables to replace **YOUR_NUMBER** and **YOUR_PIC**. Using the same values
+Once again, there are 2 variables to replace **YOUR_NUMBER** and **YOUR_PIC**.
+(YOUR_NUMBER occurs twice in this snippet.) Using the same values
 you used previously in Step 2.1, replace the text for these variables.
 
 ## Step 3: Commit Changes
