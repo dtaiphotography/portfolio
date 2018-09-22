@@ -1,7 +1,7 @@
 TODO:
 
 * Social media icons
-* Remove filter link behaviour for about and contact pages
+* Contact and about pages
 
 # dtai photography website instructions
 
