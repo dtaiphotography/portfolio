@@ -1,6 +1,5 @@
 TODO:
 
-* Social media icons
 * Contact and about pages
 
 # dtai photography website instructions
